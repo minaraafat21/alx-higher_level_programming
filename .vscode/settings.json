@@ -1,6 +1,12 @@
 {
     "[python]": {
-        "editor.defaultFormatter": "ms-python.python"
+        "editor.defaultFormatter": "ms-python.autopep8"
     },
-    "python.formatting.provider": "none"
+    "python.formatting.provider": "none",
+    "python.linting.enabled": true,
+    "editor.renderWhitespace": "all",
+    "python.linting.pylintEnabled": false,
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pycodestyleCategorySeverity.W": "Warning",
+    "python.analysis.useLibraryCodeForTypes": true
 }
