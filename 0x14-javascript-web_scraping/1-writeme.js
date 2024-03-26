@@ -4,7 +4,7 @@ const file = process.argv[2];
 const content = process.argv[3];
 fs.writeFile(file, content, 'utf8', (err) => {
   if (err) {
-    console.error('Error writing to file:', err);
+    console.error(err);
     return;
   }
 });
